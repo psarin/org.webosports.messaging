@@ -1,0 +1,53 @@
+.onyx-radiobutton.onyx-tabbutton {
+  padding: @onyx-tabbutton-padding-tb @onyx-tabbutton-padding-lr;
+  font-size: @onyx-tabbutton-font-size;
+  border-radius: 0px;
+}
+
+/* RadioButton.css */
+.onyx-radiobutton {
+  padding: 8px 34px;
+  background: buttonface;
+  box-shadow: none;
+}
+
+.onyx-radiobutton.active {
+  box-shadow: none;
+  border-top: 0px;
+}
+
+.onyx-radiobutton.onyx-tabbutton:first-child {
+  border-radius: @onyx-radiobutton-border-radius 0 0 @onyx-radiobutton-border-radius;
+}
+
+.onyx-radiobutton.onyx-tabbutton:last-child {
+  border-radius: 0px @onyx-radiobutton-border-radius @onyx-radiobutton-border-radius 0px;
+  /* IE8 */
+  border-right: 1px solid (@onyx-radiobutton-background * 0.22);
+  border-right: 1px solid fade((@onyx-radiobutton-background * 0.065), 20%);
+}
+.onyx-button {
+  /* outline: 0; */
+  /* color: #292929; */
+  font-size: 16px;
+  border: 1px solid rgba(15, 15, 15, 0.2);
+  box-shadow: none;
+  background: #e1e1e1 none;
+  height:32px;
+}
+
+
+.onyx-menu{
+  min-width: 160px;
+  top: 100%;
+  left: 0;
+  margin-top: 0px;
+  padding: 3px 0;
+  border-radius: 0px;
+  width: 100%;
+}
+
+.onyx-popup{
+  background: #e1e1e1;
+  color:#000;
+}
